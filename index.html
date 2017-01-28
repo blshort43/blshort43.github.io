@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Brandon Short</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="font/css/fontello.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+                <a class="brand" href="index.html"></a>
+                <ul class="nav nav-collapse">
+                    <li><a href="index.html" class="active"><i class="icon-user"></i> Profile</a></li>
+                    <li><a href="skills.html"><i class="icon-trophy"></i> Skills</a></li>
+                    <li><a href="work.html"><i class="icon-picture"></i> Projects</a></li>
+                    <li><a href="resume.html"><i class="icon-doc-text"></i> Resume</a></li>
+                </ul>
+                <div class="nav-collapse collapse"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container profile">
+        <div class="span3"> <img class="profileImg" src="img/profilepic5.jpg" alt=""> </div>
+        <div class="span5">
+            <h1>Brandon Short</h1>
+            <h3>Full Stack Developer</h3>
+            <p> My objective is to successfully transfer into a full stack developer role. I look forward to improving on my boot camp skills while also acquiring knowledge of new programming languages in the future. </p>
+            <a href="#myModal" role="button" data-toggle="modal" class="hire-me"><i class="icon-paper-plane"></i> Contact Me</a> </div>
+        <div class="row social">
+            <ul class="social-icons">
+                <li>
+                    <a href="https://github.com/blshort43?tab=repositories" target="_blank"><img src="img/github-small.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/brandonshort43/" target="_blank"><img src="img/linkedin-small.png" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer" href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+        <div class="container">
+            <p class="text-center">
+                <a>Brandon Short</a>
+            </p>
+        </div>
+    </div>
+    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="myModalLabel"><i class="icon-mail"></i> Contact Me</h3>
+        </div>
+        <div class="modal-body">
+            <form action="https://formspree.io/blshort43@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="text" name="email" placeholder="Your Email">
+                <input type="text" name="website" placeholder="Website (Optional)">
+                <textarea rows="3" style="width:80%" name="message" placeholder="Your message"></textarea>
+                <br>
+                <button type="submit" class="btn btn-large"><i class="icon-paper-plane"></i> SUBMIT</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+    $('#myModal').modal('hidden')
+    </script>
+</body>
+
+</html>

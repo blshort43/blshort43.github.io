@@ -95,10 +95,21 @@ ul.social-icons li a:hover {
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
-	background: #355267;
+}
+.skills .ps {
+	background:#30a5dc;
+}
+.skills .ai {
+	background:#ee742b;
+}
+.skills .html {
+	background:#f04949;
+}
+.skills .css {
+	background:#39d084;
 }
 .skills .ps:hover, .skills .ai:hover, .skills .html:hover, .skills .css:hover {
-	border:8px solid #39D084;
+	border:8px solid #fff;
 }
 .skills .ps h3, .skills .ai h3, .skills .html h3, .skills .css h3 {
 	color:#fff;

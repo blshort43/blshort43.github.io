@@ -156,6 +156,7 @@ ul.social-icons li a:hover {
 .skills .css {
     background: #39d084;
 }
+
 .skills .laravel:hover,
 .skills .ps:hover,
 .skills .ai:hover,
@@ -163,6 +164,7 @@ ul.social-icons li a:hover {
 .skills .css:hover {
     border: 8px solid #fff;
 }
+
 .skills .laravel h3,
 .skills .ps h3,
 .skills .ai h3,

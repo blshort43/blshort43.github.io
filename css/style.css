@@ -1,4 +1,7 @@
 /*This stylesheet contains some custom class rather than Bootstrap*/
+h4 {
+    color: #39D084;
+}
 
 .laravel img {
     margin-top: 20px;

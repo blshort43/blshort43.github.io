@@ -4560,6 +4560,9 @@ button.close {
  padding-left: 0;
  padding-right: 0;
 }
+h4{
+text-align: center;
+}
  .navbar-fixed-top,  .navbar-fixed-bottom,  .navbar-static-top {
  margin-left: -20px;
  margin-right: -20px;
@@ -4570,7 +4573,7 @@ button.close {
  .skills .span5 {
  padding:10px !important;
 }
- .profile h2, .skills h2, .work h2, .resume h2 {
+.profile h2, .skills h2, .work h2, .resume h2 {
  text-align:center;
  margin:0 0 20px;
 }

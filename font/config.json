@@ -3,6 +3,8 @@
   "css_prefix_text": "icon-",
   "css_use_suffix": false,
   "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
   "glyphs": [
     {
       "uid": "8b80d36d4ef43889db10bc1f0dc9a862",
@@ -99,6 +101,12 @@
       "css": "cancel",
       "code": 59407,
       "src": "mfglabs"
+    },
+    {
+      "uid": "05de65980bb8a3711da037c2cc25f4f8",
+      "css": "camera-outline",
+      "code": 59408,
+      "src": "typicons"
     }
   ]
 }

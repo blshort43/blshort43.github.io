@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Brandon Short | Skills</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="font/css/fontello.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+                <a class="brand" href="index.html"></a>
+                <ul class="nav nav-collapse">
+                    <li><a href="index.html"><i class="icon-user"></i> Profile</a></li>
+                    <li><a href="skills.html"><i class="icon-trophy"></i> Skills</a></li>
+                    <li><a href="work.html"><i class="icon-picture"></i> Projects</a></li>
+					<li><a href="photos.html" class="active"><i class="icon-camera-outline"></i> Photo Art</a></li>
+                    <li><a href="resume.html"><i class="icon-doc-text"></i> Resume</a></li>
+                </ul>
+                <div class="nav-collapse collapse"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container photos">
+        <h2>My Photoshop Images</h2>
+
+<div class="w3-container">
+
+<div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img src="img/music.jpg" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    Feel the Music
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="img/funky.jpg" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    Get Funky, Get Loose
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="img/colors.jpg" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    Color Blast
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="img/firebird.jpg" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    1985 Firebird
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="img/samurai.jpg" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    Samurai Logo
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="img/blam.jpg" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    Blam
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="img/me.jpg" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    Me
+  </div>
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+    </div>
+    <div class="footer">
+        <div class="container">
+            <p class="text-center">
+                <a href="#myModal" role="button" data-toggle="modal"> <i class="icon-mail"></i> CONTACT</a>
+            </p>
+        </div>
+    </div>
+    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="myModalLabel"><i class="icon-mail"></i> Contact Me</h3>
+        </div>
+        <div class="modal-body">
+            <form action="https://formspree.io/blshort43@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="text" name="email" placeholder="Your Email">
+                <input type="text" name="website" placeholder="Website (Optional)">
+                <textarea rows="3" style="width:80%" name="message" placeholder="Your message"></textarea>
+                <br>
+                <button type="submit" class="btn btn-large"><i class="icon-paper-plane"></i> SUBMIT</button>
+            </form>
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js "></script>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+
+</html>

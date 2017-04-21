@@ -6,6 +6,12 @@ h4 {
     margin: auto;
 }
 
+.navbar .nav li a {
+    font-size: 13px;
+    padding: 10px 10px 10px;
+}
+
+
 .laravel img {
     margin-top: 20px;
 }
@@ -38,7 +44,8 @@ a.brand img {
 .profile,
 .skills,
 .work,
-.resume {
+.resume,
+.photos {
     padding: 30px 0;
     margin-bottom: 50px;
 }
@@ -46,15 +53,21 @@ a.brand img {
 .profile h2,
 .skills h2,
 .work h2,
-.resume h2 {
+.resume h2, 
+.photos h2 {
     font-weight: normal;
     color: #39D084;
     margin: auto;
 }
 
+.photos h2 {
+    font-weight: normal;
+    color: #39D084;
+    margin: auto;
+    padding-bottom: 20px;
+}
 
 /***** Profile *****/
-
 .profile h1 {
     color: #39d084;
     font-weight: normal;
@@ -76,6 +89,7 @@ a.brand img {
     clear: both;
     padding: 40px 0;
 }
+
 
 a.hire-me {
     display: inline-block;
